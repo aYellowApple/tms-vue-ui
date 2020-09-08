@@ -229,7 +229,7 @@ class SchemaWrap {
   }
 }
 /**
- * 构造树节点
+ * 构造树节点 
  */
 SchemaWrap.build = function (key, schema, parent) {
   let wrap = new SchemaWrap(key, schema, parent)
